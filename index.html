@@ -3,7 +3,7 @@
     <head>
 
         <title>Sadiya Misbah</title>
-        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <link rel="stylesheet" type="text/css" href="clone.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--using Google Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Italianno|Courier" rel="stylesheet">
@@ -13,32 +13,44 @@
     </head>
 
     <body>
-        <div id="page-top" class="parallax zoomin"> 
-            <img src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?auto=format&fit=crop&w=793&q=80"> 
+      	 
+        <div id="page-top"> 
+            <img src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?auto=format&fit=crop&w=793&q=80;" style="width:100%;height:auto;"> 
                    
                 <!--Background tags on cover image-->
-                <p class="tagsoncover">&lthtml&gt<br> <br>&nbsp &nbsp &nbsp &ltbody&gt <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp &nbsp &nbsp &nbsp&lt&#47body&gt<br><br>&nbsp&lt&#47html&gt
-                </p>
+                <div class="hidetags">
+                    <p class="tagsoncover">&lthtml&gt<br> <br>&nbsp &nbsp &nbsp &ltbody&gt <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp &nbsp &nbsp &nbsp&lt&#47body&gt<br><br>&nbsp&lt&#47html&gt
+                    </p>
+                </div>
                     
                 <!--Text in motion-->
-                <div class="centered" id="animatetext" >Hi! I'm Sadiya Misbah,<br>A passionately curious Full Stack Developer
+                <div class="covertext">
+
+                    <div class="centered hidemain" id="animatetext" >Hi! I'm Sadiya Misbah,<br>A passionately curious Full Stack Developer
+                    </div>
+                    <div class="centered small" style="top:35%;">Hi! I'm Sadiya Misbah,<br>A passionately curious Full Stack Developer
+                    </div>
+
                 </div>
-                <div class="bottom-right">" A developer knows he has achieved perfection not when there is nothing<br> left to add, but when there is nothing left to take away "
+
+                <div class="bottom-right hidequote">" A developer knows he has achieved perfection not when there is nothing<br> left to add, but when there is nothing left to take away "
                 </div>
                     
                 <!--Sidenav on cover image-->
-                <div id="mySidenav" class="sidenav">
+                <div id="mySidenav" class="sidenav hidetags">
                     <a href="#home" id="home1">Home</a>
                     <a href="#about" id="about1">About</a>
                     <a href="#projects" id="projects1">Projects</a>
                     <a href="#contact" id="contact1">Contact</a>
                 </div>
+
+              
         </div>
-                
-        <div class="container">
-            <div style="padding: 0.9em;width:auto;">
-                <!--The top nav-->
-                <nav class="navbar navbar-default">
+     
+        <!--The top nav-->
+        <div class="restofthetext">
+
+            <nav class="navbar navbar-default">
                     
                     <ul class="topnav" id="home">
                         <li>
@@ -57,92 +69,86 @@
                             </a>
                         </li>
                     </ul>
-
-                </nav>
+            </nav>
 
                 <!--Header with the most beautiful Quote-->
-                <header>
+            <header>
 
-                    <div style="margin:4%;">
-                        <h1 class="myfont" style="text-shadow: 2px 2px 4px #dd9bb8;">" Choose a job you love, and you will never have to work a day in your life "
-                        </h1>
-                    </div>
-        
-                </header>
-                    
-                <div class="container">
-                    <div class="myfont" id="about" style="text-align: justify;padding-top: 4%;color:#51475b";>
-
-                        <h1  style="text-align:center"> - About Me -</h1>
-                        <p style="font-size:1.0em;text-align: justify;" > 
-                            &nbsp &nbsp &nbsp &nbsp I am a Computer Science Engineer with a passion for creating beautiful, intuitive responsive websites with a clean, elegant and efficient code.I’ d love to bring the ideas into design.Some languages I frequently find myself using include C,C++,MySQL,HTML, CSS and a touch of JavaScript and many more to come.I love coding things from scratch and this portfolio is my first ever try in the world of web technologies.Although my professional path has taken many twists and turns — from a Mainframe resource, to a Full Stack Developer, coding is all I've enjoyed.As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making interactive and pleasant user interface with a passion for constant improvements.There's a sense of satisfaction I get when I see myself getting better at something.While I'm not a graphic designer, I have an eye for a good design.Front end design is an interesting work but back end power makes it challenging and I love the intersection of these two - A Full Stack Developer.When I first heard of Full stack development, I felt like the job descsription was written with me in mind.I've never stopped engaging my passion to help others and solve problems and I also find great interest in drawing,cooking, playing badminton and carrom.
-                        </p>
-
-                    </div>
+                <div style="margin:4%;">
+                    <h1 class="myfont" style="text-shadow: 2px 2px 4px #dd9bb8;">" Choose a job you love, and you will never have to work a day in your life "
+                    </h1>
                 </div>
-            </div>
+        
+            </header>
+                    
+            <div class="myfont" id="about" style="text-align: justify;padding-top: 4%;color:#51475b";>
 
-                 
+                <h1  style="text-align:center"> - About Me -</h1>
+                <p style="text-align: justify;" > 
+                    &nbsp &nbsp &nbsp &nbsp I am a Computer Science Engineer with a passion for creating beautiful, intuitive responsive websites with a clean, elegant and efficient code.I’ d love to bring the ideas into design.Some languages I frequently find myself using include C,C++,MySQL,HTML, CSS and a touch of JavaScript and many more to come.I love coding things from scratch and this portfolio is my first ever try in the world of web technologies.Although my professional path has taken many twists and turns — from a Mainframe resource, to a Full Stack Developer, coding is all I've enjoyed.As a web developer, I enjoy using my obsessive attention to detail, my unequivocal love for making interactive and pleasant user interface with a passion for constant improvements.There's a sense of satisfaction I get when I see myself getting better at something.While I'm not a graphic designer, I have an eye for a good design.Front end design is an interesting work but back end power makes it challenging and I love the intersection of these two - A Full Stack Developer.When I first heard of Full stack development, I felt like the job descsription was written with me in mind.I've never stopped engaging my passion to help others and solve problems and I also find great interest in drawing,cooking, playing badminton and carrom.
+                </p>
+
+            </div>
+             
             <br><br><br>
             
-             
             <div   style="text-align: justify;padding-top: 5%;">
 
                 <h1 id="projects">- Projects -</h1>
-                <button class="accordion myfont" style="font-size: 1.5em;">Project 1</button>
-                        <div class="panel">
-                            <p class="myfont">Implemented a project entitled “Building confidential and efficient query services in the cloud using data perturbation” with Java as the programming language.</p>
-                        </div>
+                        <button class="accordion myfont" style="font-size: 1.5em;">Project 1</button>
+                            <div class="panel">
+                                <p class="myfont">Implemented a project entitled “Building confidential and efficient query services in the cloud using data perturbation” with Java as the programming language.</p>
+                            </div>
 
-                <button class="accordion myfont" style="font-size: 1.5em;text-align:center">Project 2</button>
-                        <div class="panel">
-                            <p class="myfont">Implemented a mini project entitled “Simulation of Wind Mill” using a graphics tool called OpenGL with C as the programming language, which depicts the generation of electricity through windmill.</p>
-                        </div>
+                        <button class="accordion myfont" style="font-size: 1.5em;text-align:center">Project 2</button>
+                            <div class="panel">
+                                <p class="myfont">Implemented a mini project entitled “Simulation of Wind Mill” using a graphics tool called OpenGL with C as the programming language, which depicts the generation of electricity through windmill.</p>
+                            </div>
 
-                <button class="accordion myfont" style="font-size: 1.5em;text-align:right">Project 3</button>
-                        <div class="panel">
-                            <p class="myfont">Implemented a mini project entitled "Retail Banking System" using an online transaction processing program called CICS with COBOL and JCL as the programming languages.</p>
-                        </div>
+                        <button class="accordion myfont" style="font-size: 1.5em;text-align:right">Project 3</button>
+                            <div class="panel">
+                                <p class="myfont">Implemented a mini project entitled "Retail Banking System" using an online transaction processing program called CICS with COBOL and JCL as the programming languages.</p>
+                            </div>
 
 
-                <!--JavaScript to handle the functionality of Projects Section-->
-                <script>
-
-                    var acc = document.getElementsByClassName("accordion");
-                    var i;
+                        <!--JavaScript to handle the functionality of Projects Section-->
+                        <script>
+                            var acc = document.getElementsByClassName("accordion");
+                            var i;
                     
-                    for (i = 0; i < acc.length; i++) 
-                    {
-                        acc[i].addEventListener("click", function()
-                        {
-                            this.classList.toggle("active");
-                            var panel = this.nextElementSibling;
-                            if (panel.style.display === "block") 
+                            for (i = 0; i < acc.length; i++) 
                             {
-                                panel.style.display = "none";
-                            } 
-                            else 
-                            {
-                                 panel.style.display = "block";
+                                acc[i].addEventListener("click", function()
+                                {
+                                    this.classList.toggle("active");
+                                    var panel = this.nextElementSibling;
+                                    if (panel.style.display === "block") 
+                                    {
+                                        panel.style.display = "none";
+                                    } 
+                                    else 
+                                    {
+                                        panel.style.display = "block";
+                                    }
+                                });            
                             }
-                        });            
-                    }
                                 
-                </script>
+                        </script>
 
-         
+            </div>
 
                 <!--Contact Info-->
 
-                <br><br><br><br>
-                <footer>
-                    <div id="mail" class="footer-above">  
-                        <div class="container" style="background-color:#f2e1e1">
-                            <div   style="text-align:center;padding: 0.3%;">
-                                <h1 id="contact">- Get in touch - </h1>
-                            </div>
+            <br><br><br><br>
 
-                            <div class="myfont" style="text-align:center;"><br>
+            <footer>
+                <div id="mail" class="footer-above">  
+                    <div style="background-color:#f2e1e1">
+                        <div   style="text-align:center;padding: 0.3%;">
+                                <h1 id="contact">- Get in touch - </h1>
+                        </div>
+
+                        <div class="myfont" style="text-align:center;"><br>
                                 
                                 <i class="fa fa-envelope" aria-hidden="true" style="font-size:150%"><a href="mailto:saadiyamisbah@gmail.com" style="text-decoration:none;font-size:70%" class="myfont">&nbsp saadiyamisbah@gmail.com</a>
                                 </i><br><br>
@@ -151,24 +157,25 @@
                                 <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:150%;"><a href="https://www.linkedin.com/in/sadiya-misbah-at-passion" style="text-decoration:none;font-size:70%" class="myfont">&nbsp https://www.linkedin.com/in/sadiya-misbah-at-passion</a>
                                 </i><br><br>
                                 
-                            </div>
                         </div>
                     </div>
-                </footer> 
+                </div>
+                
+            </footer> 
 
                 <!--Embedding Google Maps to display the location-->
-                <div class="myfont" style="text-align: center;padding:1.5%;font-size: 2em;color: #51475b;font-weight:600;" ><br>- Location -<br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3996366.3103500092!2d71.18303499168985!3d11.99514633144995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381d572ef9%3A0x2b89ece8c0f8396d!2sMysuru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1516996536774" width="50%" height="400" frameborder="0" style="padding: 1em" allowfullscreen>
-                    </iframe>
-                 </div>
+            <div class="myfont" style="text-align: center;padding:1.5%;font-size: 2em;color: #51475b;font-weight:600;" ><br>- Location -<br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3996366.3103500092!2d71.18303499168985!3d11.99514633144995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381d572ef9%3A0x2b89ece8c0f8396d!2sMysuru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1516996536774" width="50%" height="400" frameborder="0" style="padding: 1em" allowfullscreen>
+                </iframe>
+            </div>
 
-                <p class="myfont" style="text-align:center;font-weight:700;">A Huge Thanks for your visit on my very first website!</p>
+            <p class="myfont" style="text-align:center;font-weight:700;">A Huge Thanks for your visit on my very first website!</p>
 
-                <marquee behavior="slide" direction="left" scrollamount="5">
-                <a href="#page-top"><br><button  class="button myfont" style="font-size:1.2em;color:white">I'll take you up! </button></a>
-                </marquee>
+            <marquee behavior="slide" direction="left" scrollamount="5">
+            <a href="#page-top"><br><button  class="button myfont" style="font-size:1.2em;color:white">I'll take you up! </button></a>
+            </marquee>
 
-            </div>  
         </div>
     </body>
 </html>
+ 
